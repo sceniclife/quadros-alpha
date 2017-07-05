@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/graystrips">
+
+    <ImageView
+        android:id="@+id/heart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/play_view_title"
+        android:gravity="center"
+        android:src="@drawable/heart"
+        android:textSize="20dip" />
+
+    <ImageView
+        android:id="@+id/heart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/heart1"
+        android:contentDescription="@string/play_view_title"
+        android:gravity="center"
+        android:src="@drawable/heart"
+        android:textSize="20dip" />
+
+    <ImageView
+        android:id="@+id/heart3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/heart2"
+        android:contentDescription="@string/play_view_title"
+        android:gravity="center"
+        android:src="@drawable/heart"
+        android:textSize="20dip" />
+
+    <ImageView
+        android:id="@+id/heart4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/heart3"
+        android:contentDescription="@string/play_view_title"
+        android:gravity="center"
+        android:src="@drawable/heart"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/heart4"
+        android:text="999"
+        android:textSize="20dip" />
+
+    <Button
+        android:id="@+id/quit_game_button"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="quitGameAction"
+        android:text="QUIT GAME"
+        android:textSize="10dp"
+        android:layout_below="@+id/board"
+        android:layout_toRightOf="@+id/reset_game_button"
+        android:background="@drawable/play_menu_buttons"  />
+
+    <Button
+        android:id="@+id/reset_game_button"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="resetGameAction"
+        android:text="RESET GAME"
+        android:textSize="10dp"
+        android:layout_below="@+id/board"
+        android:layout_toRightOf="@+id/options_button"
+        android:background="@drawable/play_menu_buttons"  />
+    
+    <Button
+        android:id="@+id/options_button"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="optionsAction"
+        android:text="OPTIONS"
+        android:textSize="10dp"
+        android:layout_below="@+id/board"
+        android:layout_toRightOf="@+id/howto_button"
+        android:background="@drawable/play_menu_buttons"  />
+    
+    <Button
+        android:id="@+id/howto_button"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:onClick="howtoAction"
+        android:text="HELP"
+        android:textSize="10dp"
+        android:layout_below="@+id/board"
+        android:background="@drawable/play_menu_buttons" />
+    
+
+    <com.example.quadros.alpha.BoardView
+        android:id="@+id/board"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/heart1" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/graystripes">
+
+     <ImageView
+         android:id="@+id/title_icon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="90dp"
+         android:layout_centerHorizontal="true"
+         android:gravity="center"
+         android:src="@drawable/quadros_icon_large"
+         android:textSize="20dip" />
+     
+    <TextView
+        android:id="@+id/title_view_textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/title_icon"
+        android:gravity="center"
+        android:text="@string/title_view_title"
+        android:textSize="40dip" />
+    
+    <!--
+    <TextView
+        android:id="@+id/byJerome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_view_textViewId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/byjerome"
+        android:textSize="20dip" />
+    <TextView
+        android:id="@+id/byTiffany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/byJerome"
+        android:gravity="center"
+        android:text="@string/bytiffany"
+        android:textSize="20dip" />
+    <TextView
+        android:id="@+id/byViet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/byTiffany"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/byviet"
+        android:textSize="20dip" />
+    -->
+
+</RelativeLayout>

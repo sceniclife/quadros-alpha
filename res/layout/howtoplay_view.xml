@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/graystripes" >
+   <TextView
+        android:id="@+id/howto_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/howtotitle"
+        android:textSize="20dip"
+        android:layout_centerHorizontal="true"/>
+
+   <TextView
+       android:id="@+id/howtopara_view_title"
+       android:layout_width="275dp"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/howto_view_title"
+       android:text="@string/howtoparagraph" />
+
+   <TextView
+       android:id="@+id/difficulty_view_title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:layout_below="@+id/howtopara_view_title"
+       android:text="@string/difficultytitle" 
+       android:textSize="20dip"
+       android:layout_centerHorizontal="true"/>
+   
+   <TextView
+       android:id="@+id/diffeasy_view_title"
+       android:layout_width="275dp"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/difficulty_view_title"
+       android:text="@string/difficultyeasy" />
+      
+   <TextView
+       android:id="@+id/diffmed_view_title"
+       android:layout_width="275dp"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/diffeasy_view_title"
+       android:text="@string/difficultymedium" />
+
+   <TextView
+       android:id="@+id/diffhard_view_title"
+       android:layout_width="275dp"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/diffmed_view_title"
+       android:text="@string/difficultyhard" />
+   
+   <TextView
+       android:id="@+id/signature_view_title"
+       android:layout_width="275dp"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp"
+       android:layout_below="@+id/diffhard_view_title"
+       android:text="@string/signature" 
+       android:textSize="10dip"/>
+</RelativeLayout>
+
+
+

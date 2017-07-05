@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graystripes">
+    
+    <ImageView
+        android:src="@drawable/quadros_small"
+        android:id="@+id/title_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center" />
+       
+    <TextView
+        android:id="@+id/menu_view_textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_icon"
+        android:layout_marginTop="30dp"
+        android:text="@string/menu_view_title"
+        android:textSize="45dip" />
+    
+    <Button
+		android:id="@+id/playAction_button"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="8dp"
+		android:layout_width="115dp"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/menu_view_textViewId"
+		android:onClick="playAction"
+		android:text="PLAY"
+		android:textSize="14dp"
+		android:background="@drawable/styled_button" />
+    
+    <TableLayout
+        android:id="@+id/menuButtonGrid"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playAction_button"
+        android:layout_centerInParent="true">
+        <TableRow >
+	        	<Button
+		        android:id="@+id/difficultyAction_button"
+		        android:onClick="modesAction"
+		        android:layout_width="115dp"
+        		android:layout_height="match_parent"
+		        android:text="DIFFICULTY"
+		        android:textSize="14dip"
+		        android:background="@drawable/styled_button"/>
+	        	
+	        	<Button
+		        android:id="@+id/progressAction_button"
+		        android:layout_width="115dp"
+		        android:layout_height="wrap_content"
+		        android:onClick="progressAction"
+		        android:text="PROGRESS"
+		        android:textSize="14dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/styled_button" />
+        </TableRow>
+        
+        <TableRow >
+            	<Button
+		        android:id="@+id/howToAction_button"
+		        android:layout_width="115dp"
+		        android:layout_height="wrap_content"
+		        android:onClick="howtoAction"
+		        android:text="HOW TO PLAY"
+		        android:textSize="14dp" 
+		        android:layout_marginTop="8dp"
+		        android:background="@drawable/styled_button"/>
+            	
+            	<Button
+		        android:id="@+id/optionsAction_button"
+		        android:layout_width="115dp"
+		        android:layout_height="wrap_content"
+		        android:onClick="optionsAction"
+		        android:text="OPTIONS"
+		        android:textSize="14dp"
+		        android:layout_marginTop="8dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/styled_button" />
+        </TableRow>
+    </TableLayout>
+    
+</RelativeLayout>

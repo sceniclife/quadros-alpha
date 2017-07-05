@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<CheckBoxPreference
+		android:key="easy"
+		android:title="Easy"
+		android:defaultValue="false"
+		android:summary="Regenerate all hearts at the start of the next level" />
+	
+	<CheckBoxPreference
+		android:key="medium"
+		android:title="Medium"
+		android:defaultValue="true"
+		android:summary="Regenerate all one heart after completing a perfect level with no mistakes" />
+	
+	<CheckBoxPreference
+		android:key="easy"
+		android:title="Easy"
+		android:defaultValue="true"
+		android:summary="Hearts never regenerate" />
+	
+</PreferenceScreen>

@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">Quadros Alpha</string>
+    <string name="title_view_title">QUADROS</string>
+    <string name="menu_view_title">QUADROS</string>
+    <string name="menu_view_play">play</string><string name="menu_view_progress">progress</string><string name="progress_view_title">&lt;progress screen&gt;</string>
+    <string name="play_view_title">gameplay screen</string>
+    <string name="score">000</string>
+    
+    <string name="difficulty_choose">MODE</string>
+    <string name="difficulty_easy">EASY</string>
+    <string name="difficulty_medium">MEDIUM</string>
+    <string name="difficulty_hard">HARD</string>
+    
+    <string name="sure">ARE YOU SURE?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <string name="options">OPTIONS</string>
+    <string name="music">MUSIC</string>
+    <string name="sfx">SFX</string>
+    
+    <string name="newgame">LEVEL COMPLETE!</string>
+    <string name="retry">RETRY?</string>
+    <string name="quit">QUIT?</string>
+    <string name="reset">RETRY?</string>
+    <string name="close">CLOSE</string>
+    <string name="next">NEXT LEVEL</string>
+    
+    <string name="byjerome">Jerome Martinez</string>
+    <string name="bytiffany">Tiffany Ko</string>
+    <string name="byviet">QuocViet Le</string>
+    
+    <string name="howtotitle">HOW TO PLAY</string>
+    <string name="howtoparagraph">Quadros is a memory matrix game that tests your ability to recall spatial layouts and trains your brain. Try to complete each level of the game by tapping on tiles to repeat a pattern temporarily shown on the screen. As you progress, the number of tiles to remember increases and the matrix gets bigger. Win points for correct answers and lose 1 heart for incorrect guesses; every game starts with 4 hearts. Try to get the highest score possible!</string>
+    <string name="difficultytitle">DIFFICULTY LEVELS</string>
+    <string name="difficultyeasy">Easy: Start with 4 hearts at the beginning of every level.</string>
+	<string name="difficultymedium">Medium: Regenerate a heart if you complete a level without mistakes (maximum 4 hearts).</string>
+	<string name="difficultyhard">Hard: No heart regeneration. You only get 4 chances for the entire game!</string>
+    <string name="signature">Quadros was created by Jerome Martinez, Tiffany Ko, and QuocViet Le for Michael Scotts Mobile Computing course (Fall 2012) at the University of Texas at Austin.</string>
+</resources>
